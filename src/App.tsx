@@ -1,14 +1,13 @@
 import './App.css'
-import Login from './components/login/login'
+import Signin from './components/signin/Signin'
 
 function App() {
     return (
         <div>
             <h1>LMS 2023</h1>
-            <Login />
-            
+            <Signin />
         </div>
     )
 }
 
-export default App;
+export default App
